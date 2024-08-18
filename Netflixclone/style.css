@@ -1,0 +1,423 @@
+<style>
+
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Playwrite+AR:wght@100..400&family=Playwrite+BE+WAL:wght@100..400&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body{
+     background-color: black;
+     margin: 0px;
+}
+
+.main {
+
+    background-image: url(Assests/images/image3.jpg);
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+
+}
+
+.box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.6;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    /* background-color: red; */
+    max-width: 60vw;
+    margin: auto;
+    height: 50px;
+}
+
+nav div {
+    position: relative;
+}
+
+nav img {
+    color: rgb(0, 0, 0);
+    width: 144px;
+    z-index: 10;
+    position: relative;
+    
+
+
+
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    
+}
+
+.hero {
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 20px;
+    
+}
+.title{
+     font-size: 40px;
+     font-weight: 900;
+      text-align: center ;
+}
+
+
+.hero:nth-child(2){
+     font-weight: 400;
+     font-size: 24px;
+     text-align: center ;
+}
+.third{
+     font-weight: 400;
+     font-size: 20px;
+     text-align: center ;
+}
+.separation{
+    width: 100%;
+    background: rgb(77, 75, 75);
+    height: 7px;
+    
+}
+.bt{
+     display: flex;
+     margin:20px;
+     column-gap: 22px;
+}
+.btn{
+     
+     font-weight:bold;
+     background-color: rgba(255, 255, 255, 0);
+     color:white;
+     border: 0.5px solid rgba(255, 255, 255, 0.486);
+     border-radius: 2px;
+     cursor: pointer;
+       font-weight: 400;
+}
+.btn0{
+     /* padding: 0px 42px 0px 10px; */
+     color: white;
+     font-weight: bolder;
+     display: flex;
+}
+.btn1{
+    padding: 6px 10px;
+     font-weight:bold;
+     background-color: rgba(255, 255, 255, 0);
+     color:white;
+     border: 0.5px solid rgba(3, 3, 3, 0);
+     border-radius: 2px;
+       cursor: pointer; 
+   font-weight: 400;
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 12px 45px;;
+    font-size: 24px;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+.btn-red-sm{
+    background-color: red;
+    color:white;
+}
+.main input{
+    font-weight: bolder;
+    padding: 13px 122px 13px 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 254, 254, 0);
+    background-color: rgba(8, 0, 0, 0.6);
+    opacity:0.9 ;
+    color: white;
+}
+.login{
+     display: flex;
+     column-gap: 7px;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+}
+.text{ color: white;
+       justify-self: center;
+       align-self: center;
+       font-family: "Martel Sans", sans-serif;
+       padding: 0px 53px;
+
+}
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+     position: relative;
+     align-items: center;
+     color :white;
+
+ }
+ 
+     .sec_img{
+          display: flex;
+    align-items: center;
+    justify-content: center;
+           position: relative;
+     }
+
+.sec_img img {
+     width: 30vw;
+     position: relative;
+     top: 0px;
+     z-index: 10;
+}
+ .first video{
+    position: absolute;
+    right: 0;
+    width: 26vw;
+    /* width: 30vw; */
+ } 
+   
+
+.bold{
+     font-size: 48px;
+     font-weight:800;
+}
+.p2{
+     font-size: 24px;
+     padding:
+     
+}
+.second text{
+     padding: 80px;
+
+}
+.second .bold{
+     font-size: 45px;
+}
+.second.p2{
+     padding:50px;
+}
+.btn img{
+     width: 15px;
+     padding: 6px;
+     
+}
+.btn0 .eng{
+     align-self: center;
+     display: flex;
+}
+.FAQ{
+     background-color: #000;
+     color: white;
+     padding: 34px;
+}
+.faqbox{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.137);
+    padding: 30px 25px;
+    max-width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.faqbox:hover{
+     background-color: rgba(255, 255, 255, 0.219);;
+}
+.FAQ h2{
+     text-align: center;
+     font-weight: bolder;
+     font-size: 32px;
+     font-family: "Martel Sans", sans-serif;
+}
+
+.faqbox span{
+     font-weight: 400;
+     font-size: 24px ;
+     font-family: "Martel Sans", sans-serif;
+}
+.end .div1{
+    text-align: center;
+    padding: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Martel Sans", sans-serif;
+    
+     
+}
+.end .login{
+     justify-content: center;
+     
+    } 
+    .end .login input{
+         border: 1px solid  rgba(255, 255, 255, 0.219);
+    }
+    footer{
+      color: white;
+      max-width: 60vw;
+      margin: auto;
+      padding: 14px;
+    }
+    footer .que{
+      padding: 34px 0px ;
+      
+    }
+ .footer{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     row-gap: 10px;
+  
+
+ }
+ footer .footer_item{
+     display: flex;
+     flex-direction: column;
+     gap:23px;
+
+     
+ }
+ footer .footer_item a{
+     color: white;
+ }
+ footer .footer_item button{
+      width:5vw;
+
+ }
+ .footer a{
+      font-size: 14px;
+ }
+
+ @media screen and (max-width:1300px){
+      
+     nav{
+           max-width: 90vw;
+     }
+      .first{
+            flex-wrap: wrap;
+          
+      }
+      .footer{
+          display: grid;
+          grid-template-columns: 1fr 1fr ;
+          row-gap: 20px;
+
+ }
+ footer .footer_item button{
+     display: flex;
+      min-width: 10vw;
+      
+}
+.sec_img img {
+     width: 30vw;
+     position: relative;
+     top: 0px;
+     z-index: 10;
+}
+ .first video{
+    position: absolute;
+    right: 0;
+    width: 26vw;
+    /* width: 30vw; */
+ } 
+ 
+
+.bold{
+     font-size: 26px;
+     font-weight:800;
+}
+.p2{
+     font-size: 12px;
+     
+     
+}
+.second text{
+     
+
+}
+.second .bold{
+     font-size: 21px;
+}
+.second.p2{
+     
+
+
+ }
+ .hero{
+     
+ }
+ 
+
+ 
+ }
+
+ @media screen and (max-width:400px){
+     .login{
+           justify-content: center;
+           align-items: center;;
+     }
+     nav img{
+           width:109px;
+     }
+   .text{
+     padding: 0px;
+  
+}
+.bold {
+     font-size: 18px;
+     font-weight: 800;                    
+ }
+ 
+}
+
+@media screen and (max-width:850px){
+
+     .title{
+          font-size: 18px;
+          font-weight: 900;
+           text-align: center ;
+     }
+     .hero:nth-child(2){
+          font-weight: 400;
+          font-size: 12px;
+          text-align: center ;
+     }
+     .third{
+          font-weight: 400;
+          font-size: 10px;
+          text-align: center ;
+     }
+
+
+}
+
+
+</style>
+
+/* note make the font-size in the heading smaller by half in each case */
+/* when you are dealing with smaller mobile modules using media query */
