@@ -1,0 +1,146 @@
+<style>
+
+header{
+    position: sticky;
+    top:0px;
+}
+.logo {
+    width: 40px;
+    height: 23px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 34px;
+
+}
+
+.logo img {
+    width: 164px;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+nav ul li span{
+     padding: 0px 5px;
+}
+.first{
+     display: flex;
+     /* background-color: aquamarine; */
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 23px;
+     margin: 80px;
+     font-family: sans-serif;
+}
+.first img{
+    
+     width: 100px;
+     padding: 0px 12px;
+}
+.first span{
+     font-size: 40px;
+}
+.text{
+    font-size: 20px;
+    font-weight: 540;
+    text-align: center;
+    width: 40vw;
+}
+.btn1{
+    background-color: #00b6d1;
+    border: none;
+    border-style:none;
+    font-weight: 900;
+    color: white;
+    padding: 14px 26px;
+    border-radius: 7px;
+}
+.btn1:hover{
+    background-color: #058da2;
+    cursor: pointer;
+}
+ 
+     .second{
+        max-width: 40vw;
+        margin:auto;
+        background-color:;
+     }
+     .larger{
+        display: flex;
+        align-items: center;
+        font-size: 25px;
+        font-weight: 900;
+         
+     }
+.btn2{
+    background-color: #5cb85c;
+    border: none;
+    color: white;
+    padding: 8px 39px;;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.item
+{ 
+    padding: 30px;
+    border-radius: 12px;
+    background:  #f9f9f9;
+    text-align: center;
+}
+.item_lang{
+     font-weight:700;
+     text-align: center;
+     font-size: 20px;
+     padding-bottom:36px ;
+     font-family: sans-serif;
+}
+.grid{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     gap: 25px;
+     
+}
+.larger img{
+    height: 50px;
+    width: 50px;
+    padding: 0px 15px;
+}
+.small{
+     padding: 9px;
+}
+.flex{
+     display: flex;
+     align-items: center
+}
+.btn2 a{
+     text-decoration: none;
+     color: white;
+}
+
+@media screen and (max-width:900px) {
+    .grid{ 
+         display: grid;
+         grid-template-columns: 1fr;
+         gap:12px;
+
+    }
+    
+         
+    
+    
+}
+</style>
