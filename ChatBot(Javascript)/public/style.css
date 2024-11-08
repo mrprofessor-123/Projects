@@ -1,0 +1,85 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    background: linear-gradient(135deg, #ff512f, #dd2476);
+    margin: 0px;
+    padding: 10px;
+
+
+}
+
+.chat_container {
+    width: 500px;
+    margin: auto;
+    background: #ffff;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #808080;
+}
+
+.chat_box {
+    height: 500px;
+    overflow-y: scroll;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+
+input {
+    width: 70%;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #808080;
+}
+
+.send_btn {
+    width: 20%;
+    padding: 15px;
+    background-color: #6495ED;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+
+}
+
+.send_btn:hover {
+    background-color: #87B3F5;
+
+
+}
+
+.chat_box msgElement {
+    padding: 20px;
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.user-msg {
+    background-color: #e0e0e0;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    align-self: flex-start;
+}
+
+.bot-msg {
+    background-color: #6495ED;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    align-self: flex-end;
+}
+
+</style>
