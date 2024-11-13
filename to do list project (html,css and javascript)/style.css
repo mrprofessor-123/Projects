@@ -1,0 +1,122 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family:Poppins,sans-serif ;
+    box-sizing: border-box;
+}
+.container{
+    background-image: url('assets/icons/pexels-olia-danilevich-5088017.jpg');
+    background-size: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+    background-position: center; /* Centers the image within the container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+
+
+    
+
+}
+.to-do{
+     width: 100%;
+     max-width: 540px;
+     background: #FFFFFF;
+     margin:100px auto 20px;
+     padding: 40px 30px 70px;
+     border-radius:10px;
+
+}
+.to-do h2{
+    color: #002765;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.to-do h2 img{
+    width:30px ;
+    margin-left: 10px;
+
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#FFFFFF;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    gap: 10px;
+    
+}
+input{
+    flex: 1;
+    border:1px solid #808080;
+    border-radius: 10px;
+    outline:none;
+    padding: 10px;
+}
+button{
+    border: none;
+    outline:none;
+    background-color: #ff512f;
+    color:#FFFFFF;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+    width: 100px;
+    height: 40px;
+}
+ul li{
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+ul li::before {
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px; /* Added width to define the size of the circle */
+    border-radius: 50%;
+    background-image: url('../assets/icons/iconmonstr-circle-thin.svg'); /* Adjust path */
+    background-size: contain; /* Make sure the SVG scales correctly */
+    background-repeat: no-repeat; /* Prevent repeating of the image */
+    top: 50%; /* Center vertically */
+    left: 15px; /* Position it inside the li */
+    transform: translateY(-50%);
+}
+ul li.checked{
+    text-decoration:line-through;
+    color: #808080;
+}
+ul li.checked::before{
+    background-image: url('/assets/icons/circle\ with\ tick\'.svg');
+
+}
+ul li span{
+    position: absolute;
+    right: 0px;
+    top:5px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    color:#000000;
+    line-height: 40px;
+    text-align: cente
+    border-radius: 50%;
+}
+
+ul li span:hover{
+    background-color: #C0B1B1 ;
+}
+
+
+</style>
